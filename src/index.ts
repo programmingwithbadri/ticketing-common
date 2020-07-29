@@ -10,3 +10,10 @@ export * from './middlewares/current-user';
 export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
+
+export * from './nats/base-listener';
+export * from './nats/base-publisher';
+export * from './nats/subjects';
+export * from './nats/events/ticket-created-event';
+export * from './nats/events/ticket-updated-event';
+
