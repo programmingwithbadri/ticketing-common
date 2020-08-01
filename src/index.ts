@@ -17,3 +17,5 @@ export * from './nats/subjects';
 export * from './nats/events/ticket-created-event';
 export * from './nats/events/ticket-updated-event';
 
+export * from './types/order-status';
+
