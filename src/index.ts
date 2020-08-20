@@ -18,6 +18,7 @@ export * from './nats/events/ticket-created-event';
 export * from './nats/events/ticket-updated-event';
 export * from './nats/events/order-created';
 export * from './nats/events/order-cancelled';
+export * from './nats/events/expiration-complete-event';
 
 export * from './types/order-status';
 
